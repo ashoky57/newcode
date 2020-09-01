@@ -1,0 +1,1042 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Welcome to NIVESH...!!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="content/css/Header-fix.css" rel="stylesheet" />
+    <link href="content/css/style.css" rel="stylesheet" />
+    <link href="content/css/side-menu.css" rel="stylesheet" />
+    <link href="content/css/aside-menu.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img alt="Logo" src="content/img/Nivesh-logo.png" />
+                <!--    <a class="navbar-brand" href="#">NIVESH</a>-->
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="innerpage2.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" style="padding: 5px 10px 5px;"><span class="fa fa-sign-out" style="padding: 7px 10px 5px;"></span>
+                        <span style="padding: 10px 0px 0px; float: left;">Logout </span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid pt60">
+        <section class="hbox stretch">
+            <aside class="bg-dark lter aside-md hidden-print" id="nav">
+                <div class="panel panel-success mb10">
+                    <div class="panel-heading">
+                        <div class="panel-title menu-title">
+                            <span class="menutext">Menu </span>
+                            <!--   <span class="lt hidden-xs b-t">
+                                <a href="#nav" data-toggle="class:nav-xs" class="pull-right btn btn-teal btn-icon active">
+                                    <i class="fa fa-thumb-tack text-white" aria-hidden="true"></i>
+                                </a>
+                            </span>-->
+                            <button type="button" class="navbar-toggle btn-teal btn-menu" data-toggle="collapse" data-target="#myMenu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="myMenu" class="panel-body collapse navbar-collapse" style="padding: 0px 0px 2px;">
+                        <section class="w-f scrollable MenuScrollOn">
+                            <nav class="nav-primary">
+                                <ul class="nav">
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-home icon"><b class="bg-danger"></b></i>
+                                            <span class="pull-right"><i class="fa fa-angle-down text"></i><i class="fa fa-angle-up text-active"></i></span>
+                                            User Admin </a>
+                                        <ul class="nav lt">
+                                            <li><a href="#"><i class="fa fa-angle-right"></i>Change Password</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-male icon"><b class="bg-warning"></b></i>
+                                            <span class="pull-right"><i class="fa fa-angle-down text"></i><i class="fa fa-angle-up text-active"></i></span>
+                                            Claim  Entry & Approval    </a>
+                                        <ul class="nav lt">
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>Claim Approval</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>Claim Entry Approval MTD</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>Claim Entry Approval FS</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-meh-o icon"><b class="bg-success"></b></i>
+                                            <span class="pull-right"><i class="fa fa-angle-down text"></i><i class="fa fa-angle-up text-active"></i></span>
+                                            Reports        </a>
+                                        <ul class="nav lt">
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>MCS Status YTD</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>90 Days Activities Wise</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>MCS Status Report (MTD)</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>MCS Reconciliation</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>MCS Reconciliation FS</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>MCS Status Report YTD FS</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>ServicClaim PendingDocReceived</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-info-circle" aria-hidden="true"><b class="bg-primary"></b></i>
+                                            <span class="pull-right"><i class="fa fa-angle-down text"></i><i class="fa fa-angle-up text-active"></i></span>
+                                            Help </a>
+                                        <ul class="nav lt">
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>Nivesh SOP</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fa fa-angle-right"></i>Nivesh- Claim Formats</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                    </div>
+                </div>
+            </aside>
+            <!--  </div>
+
+            <div class="col-md-10">-->
+            <section id="content">
+                <div class="panel-group">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                Claims Pending For Approval - (My level)                                
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <form class="form-inline form-group">
+                                <div class="form-group">
+                                    Year :                       
+                                        <select class="form-control input-sm" id="sel1">
+                                            <option>2015</option>
+                                            <option>2016</option>
+                                            <option>2017</option>
+                                            <option>2018</option>
+                                            <option>2019</option>
+                                            <option>2020</option>
+                                        </select>
+                                </div>
+                                <div class="form-group">
+                                    Channel :                                       
+                                        <div class="radio">
+                                            <input type="radio" name="optradio" checked>
+                                            <label>Option 1</label>
+                                            <input type="radio" name="optradio">
+                                            <label>Option 2</label>
+                                            <input type="radio" name="optradio">
+                                            <label>Option 3</label>
+                                        </div>
+
+                                    <!--  <input type="radio" name="optradio" checked> <label class="radio-text">FMCG </label>
+                                   <input type="radio" name="optradio"><label class="radio-text">MT </label>
+                                   <input type="radio" name="optradio"><label class="radio-text">AY </label>
+                                   <input type="radio" name="optradio"><label class="radio-text">MTD</label>
+                                  <input type="radio" name="optradio">   <label class="radio-text">FS</label>-->
+                                </div>
+                                <div class="form-group">
+                                    <input type="button" class="btn btn-success" value="Submit">
+                                    <!--  <input type="button" class="btn btn-primary" value="Submit">
+                             <input type="button" class="btn btn-success" value="Submit">
+                             <input type="button" class="btn btn-default" value="Cancel">
+                             <input type="button" class="btn btn-warning" value="Update">
+                             <input type="button" class="btn btn-danger" value="Delete">                       -->
+                                </div>
+                            </form>
+
+                            <div class="row form-group">
+                                <div class="col-md-6">
+                                    <div class="page-subtitle">Pending Claims</div>
+                                    <div class="table-responsive">
+                                        <div style="overflow: auto;">
+                                            <div class="gridbox" style="float: left;">
+                                                <div class="wrapper">
+                                                    <div class="box-area">
+                                                        <table class="grid table-condensed">
+                                                            <thead>
+                                                                <tr style="height: 35px;">
+                                                                    <th class="text-center">
+                                                                        <input type="checkbox" title="Check All" value="">
+                                                                        <div class="c2 c2-CheckAll">
+                                                                            <input type="checkbox" title="Check All" value="">
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>Month
+                                                                            <div class="c2 month">Month</div>
+                                                                    </th>
+                                                                    <th>Claim Count
+                                                                            <div class="c2 claim-count">Claim Count</div>
+                                                                    </th>
+                                                                    <th>Amount
+                                                                            <div class="c2 amount">Amount</div>
+                                                                    </th>
+                                                                    <th class="text-center">Action
+                                                                            <div class="c2 c2-action">Action</div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <!-- <i class="fa fa-eye" aria-hidden="true"></i>-->
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <!--<i class="fa fa-eye" aria-hidden="true"></i>-->
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <!--     <i class="fa fa-eye" aria-hidden="true"></i>-->
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                            <tfoot>
+                                                                <tr class="bg-default">
+                                                                    <th class="text-center">
+                                                                        <a href="#" title="Approove All" data-toggle="modal" data-target="#myModal">
+                                                                            <!-- <i class="fa fa-eye" aria-hidden="true"></i>-->
+                                                                            <img alt="View" src="content/img/approve-all.png" />
+                                                                        </a>
+                                                                    </th>
+                                                                    <th class="text-center">Total</th>
+                                                                    <th class="text-right">6</th>
+                                                                    <th class="text-right">₹2,50,50,221.00</th>
+                                                                    <th></th>
+                                                                </tr>
+                                                            </tfoot>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="page-subtitle">Drishti Damage- GRN Claims / Star SSM Auto Generated</div>
+                                    <div class="table-responsive">
+                                        <div style="overflow: auto;">
+                                            <div class="gridbox" style="float: left;">
+                                                <div class="wrapper">
+                                                    <div class="box-area">
+                                                        <table class="grid table-condensed">
+                                                            <thead>
+                                                                <tr style="height: 35px;">
+                                                                    <th class="text-center">
+                                                                        <input type="checkbox" title="Check All" value="">
+                                                                        <div class="c2 c2-CheckAll">
+                                                                            <input type="checkbox" title="Check All" value="">
+                                                                        </div>
+                                                                    </th>
+                                                                    <th>Month
+                                                                            <div class="c2 month">Month</div>
+                                                                    </th>
+                                                                    <th>Claim Count
+                                                                            <div class="c2 claim-count">Claim Count</div>
+                                                                    </th>
+                                                                    <th>Amount
+                                                                            <div class="c2 amount">Amount</div>
+                                                                    </th>
+                                                                    <th class="text-center">Action
+                                                                            <div class="c2 c2-action">Action</div>
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                        <!--<button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>-->
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">JUL             </td>
+                                                                    <td class="text-right">1	            </td>
+                                                                    <td class="text-right">₹1,00,00,001.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="text-center">
+                                                                        <input type="checkbox" value=""></td>
+                                                                    <td class="text-center">MAY	            </td>
+                                                                    <td class="text-right">5	            </td>
+                                                                    <td class="text-right">₹1,50,50,220.00	</td>
+                                                                    <td class="text-center">
+                                                                        <a href="#" title="View" data-toggle="modal" data-target="#myModal">
+                                                                            <img alt="View" src="content/img/view.png" />
+                                                                        </a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                            <tfoot>
+                                                                <tr class="bg-default">
+                                                                    <th class="text-center">
+                                                                        <a href="#" title="Approove All" data-toggle="modal" data-target="#myModal">
+                                                                            <!-- <i class="fa fa-check-square-o" aria-hidden="true"></i>-->
+                                                                            <img alt="View" src="content/img/approve-all.png" />
+                                                                        </a>
+                                                                    </th>
+                                                                    <th class="text-center">Total</th>
+                                                                    <th class="text-right">6</th>
+                                                                    <th class="text-right">₹2,50,50,221.00</th>
+                                                                    <th></th>
+                                                                </tr>
+                                                            </tfoot>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="page-subtitle">Claims Pending For Approval - (Team)</div>
+                                    <div class="col-md-12 border-all pt10">
+                                        <!--  <div id="chartContainer" style="height: 250px; max-width: 920px; margin: 0px auto;"></div>-->
+                                        <!--  <canvas id="myChart"></canvas>-->
+                                        <!-- <div id="canvas-holder" style="width:40%">
+		                                        <canvas id="chart-area"></canvas>
+	                                        </div>-->
+
+                                        <canvas id="myChart" width="400" height="220"></canvas>
+                                    </div>
+
+                                    <!--<div class="table-responsive">
+                                            <div style="overflow: auto;">
+                                                <div class="gridbox" style="float: left;">
+                                                    <div class="wrapper">
+                                                        <div class="box-area">
+                                                            <table class="grid table-condensed">
+                                                                <thead>
+                                                                    <tr style="height: 35px;">
+                                                                        <th class="text-center">
+                                                                            <input type="checkbox" title="Check All" value="">
+                                                                            <div class="c2 c2-CheckAll2">
+                                                                                <input type="checkbox" title="Check All" value="">
+                                                                            </div>
+                                                                        </th>
+                                                                        <th>Month
+                                                                            <div class="c2">Month</div>
+                                                                        </th>
+                                                                        <th>Claim Count
+                                                                            <div class="c2">Claim Count</div>
+                                                                        </th>
+                                                                        <th>Amount
+                                                                            <div class="c2">Amount</div>
+                                                                        </th>
+                                                                        <th class="text-center">Action
+                                                                            <div class="c2 c2-action2">Action</div>
+                                                                        </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>JUL             </td>
+                                                                        <td>1	            </td>
+                                                                        <td>₹1,00,00,001.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>MAY	            </td>
+                                                                        <td>5	            </td>
+                                                                        <td>₹1,50,50,220.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>JUL             </td>
+                                                                        <td>1	            </td>
+                                                                        <td>₹1,00,00,001.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>MAY	            </td>
+                                                                        <td>5	            </td>
+                                                                        <td>₹1,50,50,220.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>JUL             </td>
+                                                                        <td>1	            </td>
+                                                                        <td>₹1,00,00,001.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>MAY	            </td>
+                                                                        <td>5	            </td>
+                                                                        <td>₹1,50,50,220.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>JUL             </td>
+                                                                        <td>1	            </td>
+                                                                        <td>₹1,00,00,001.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td class="text-center">
+                                                                            <input type="checkbox" value=""></td>
+                                                                        <td>MAY	            </td>
+                                                                        <td>5	            </td>
+                                                                        <td>₹1,50,50,220.00	</td>
+                                                                        <td class="text-center">
+                                                                            <button type="submit" title="View" class="btn btn-default"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                                <tfoot>
+                                                                    <tr class="bg-default">
+                                                                        <th class="text-center">
+                                                                            <button type="submit" title="Approve All" class="btn btn-success"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
+                                                                        </th>
+                                                                        <th class="text-center">Total</th>
+                                                                        <th>6</th>
+                                                                        <th>₹2,50,50,221.00</th>
+                                                                        <th></th>
+                                                                    </tr>
+                                                                </tfoot>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>-->
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="page-subtitle">Other Links</div>
+                                    <div>
+                                        <div class="col-md-12 border-all pt10">
+                                            <div class="card card-hover">
+                                                <div class="box bg-danger bg-ClaimSettlement">
+                                                    <h4>Speed of     <br />
+                                                        Claim    <br />                                            
+                                                        Settlement</h4>
+                                                </div>
+                                            </div>
+                                            <div class="card card-hover">
+                                                <div class="box bg-success bg-AgeingReport">
+                                                    <h4>Claim     <br />
+                                                         Ageing   <br />
+                                                        Report</h4>
+                                                </div>
+                                            </div>
+                                            <div class="card card-hover">
+                                                <div class="box bg-info bg-EntryReports">
+                                                    <h4>>90 Days     <br />                                             
+                                                (Claim Entry     <br /> Reports)   </h4>
+                                                </div>
+                                            </div>
+                                            <div class="card card-hover">
+                                                <div class="box bg-warning bg-AreaHeadRanking">
+                                                    <h4>Area     <br />
+                                                         Head <br />                                                
+                                                        Ranking</h4>
+                                                </div>
+                                            </div>
+                                            <div class="card card-hover">
+                                                <div class="box bg-danger bg-RollbackReport">
+                                                    <h4>Claim  <br />                                              
+                                                        Rollback <br /> 
+                                                        Report </h4>
+                                                </div>
+                                            </div>
+                                            <div class="card card-hover">
+                                                <div class="box bg-success bg-RejectReport">
+                                                    <h4>Claim  <br />                                             
+                                                        Reject    <br /> 
+                                                        Report </h4>
+                                                </div>
+                                            </div>
+                                            <div class="card card-hover">
+                                                <div class="box bg-info bg-ClaimNotEntered">
+                                                    <h4>Claim <br />                                                
+                                                        Not <br /> 
+                                                        Entered </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- Modal -->
+                            <div id="myModal" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Modal Header</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+    </div>
+    <div id="ani"></div>
+
+    <footer class="container-fluid text-center">
+        <p>&copy; 2018 Dabur India Ltd. All Rights Reserved</p>
+    </footer>
+
+    <script src="content/js/jquery.min.js"></script>
+    <script src="content/js/bootstrap.min.js"></script>
+    <script src="content/js/aside-menu.js"></script>
+    <!--    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="content/js/Chart.min.js"></script>
+    <!--    <script src="content/js/utils.js"></script>-->
+
+    <script type="text/javascript">
+        $('.panel-collapse').on('show.bs.collapse', function () {
+            $(this).siblings('.panel-heading').addClass('active');
+        });
+
+        $('.panel-collapse').on('hide.bs.collapse', function () {
+            $(this).siblings('.panel-heading').removeClass('active');
+        });
+
+
+        $(document).ready(function () {
+
+            //$(".active").click(function () {
+            //    $(".menutext").toggle();              
+            //    //$(this).toggleClass("active", 1000, "easeOutSine");
+            //    $('.fa-thumb-tack').toggleClass(1000);
+            //});
+
+            $('.active').on('click', function (e) {
+                $(".menutext").toggle();
+                $('section.w-f').toggleClass("MenuScrollOff MenuScrollOn");
+                $('.fa-thumb-tack').toggleClass("active rotated");
+                e.preventDefault();
+            });
+
+            var wheight = $(Window).height() - 155;
+            var smheight = $(Window).height() - 130;
+            $('.panel-body').height(wheight);
+            $('.MenuScrollOn').height(smheight);
+        });
+    </script>
+    <!--<script>
+        window.onload = function () {
+            var chart = new CanvasJS.Chart("chartContainer", {
+                animationEnabled: true,
+                //title: {
+                //    text: "Email Categories",
+                //    horizontalAlign: "left"
+                //},
+                data: [{
+                    type: "doughnut",
+                    startAngle: 60,
+                    //innerRadius: 60,
+                    indexLabelFontSize: 14,
+                    indexLabel: "{label} - #percent%",
+                    toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+                    dataPoints: [
+                        { y: 67, label: "N1"},
+                        { y: 28, label: "N2"},
+                        { y: 10, label: "N3"},
+                        { y: 7, label: "N4" },
+                        { y: 12, label: "N5" },
+			            { y: 15, label: "N6" },
+			            { y: 6, label: "N7" }
+                    ]
+                }]
+            });
+            chart.render();
+        }
+    </script>-->
+    <script type="text/javascript">
+
+
+        //Chart.pluginService.register({
+        //    beforeDraw: function (chart) {
+        //        if (chart.config.options.elements.center) {
+        //            //Get ctx from string
+        //            var ctx = chart.chart.ctx;
+
+        //            //Get options from the center object in options
+        //            var centerConfig = chart.config.options.elements.center;
+        //            var fontStyle = centerConfig.fontStyle || 'Arial';
+        //            var txt = centerConfig.text;
+        //            var color = centerConfig.color || '#000';
+        //            var sidePadding = centerConfig.sidePadding || 20;
+        //            var sidePaddingCalculated = (sidePadding / 100) * (chart.innerRadius * 2)
+        //            //Start with a base font of 30px
+        //            ctx.font = "50px " + fontStyle;
+
+        //            //Get the width of the string and also the width of the element minus 10 to give it 5px side padding
+        //            var stringWidth = ctx.measureText(txt).width;
+        //            var elementWidth = (chart.innerRadius * 2) - sidePaddingCalculated;
+
+        //            // Find out how much the font can grow in width.
+        //            var widthRatio = elementWidth / stringWidth;
+        //            var newFontSize = Math.floor(30 * widthRatio);
+        //            var elementHeight = (chart.innerRadius * 2);
+
+        //            // Pick a new font size so it will not be larger than the height of label.
+        //            var fontSizeToUse = Math.min(newFontSize, elementHeight);
+
+        //            //Set font settings to draw it correctly.
+        //            ctx.textAlign = 'center';
+        //            ctx.textBaseline = 'middle';
+        //            var centerX = ((chart.chartArea.left + chart.chartArea.right) / 2);
+        //            var centerY = ((chart.chartArea.top + chart.chartArea.bottom) / 2);
+        //            ctx.font = fontSizeToUse + "px " + fontStyle;
+        //            ctx.fillStyle = color;
+
+        //            //Draw text in center
+        //            ctx.fillText(txt, centerX, centerY);
+        //        }
+        //    }
+        //});
+
+
+        //var config = {
+        //    type: 'doughnut',
+        //    data: {
+        //        labels: [
+        //		  "N1",
+        //		  "N2",
+        //		  "N3"
+        //        ],
+        //        //indexLabelFontSize: 17,
+        //        //indexLabel: "{label} - #percent%",
+        //        //toolTipContent: "<b>{label}:</b> {y} (#percent%)",
+        //        //dataPoints: [
+        //        //    { y: 67, label: "Inbox" },
+        //        //    { y: 28, label: "Archives" },
+        //        //    { y: 10, label: "Labels" },
+        //        //    { y: 7, label: "Drafts"},
+        //        //    { y: 15, label: "Trash"},
+        //        //    { y: 6, label: "Spam"}
+        //        //],
+        //        datasets: [{
+        //            data: [300, 50, 100],
+        //            backgroundColor: [
+        //			  "#FF6384",
+        //			  "#36A2EB",
+        //			  "#FFCE56"
+        //            ],
+        //            hoverBackgroundColor: [
+        //			  "#FF6384",
+        //			  "#36A2EB",
+        //			  "#FFCE56"
+        //            ]
+        //        }]    
+
+        //    },
+
+
+        //        options: {
+        //            responsive: true,
+        //            legend: {
+        //                position: 'top',
+        //            },
+        //            //title: {
+        //            //    display: true,
+        //            //    text: 'Chart.js Doughnut Chart'
+        //            //},
+        //            animation: {
+        //                animateScale: true,
+        //                animateRotate: true
+        //            },
+        //            elements: {
+        //                center: {
+        //                    text: '90%',
+        //                    color: '#FF6384', // Default is #000000
+        //                    fontStyle: 'Arial', // Default is Arial
+        //                    sidePadding: 20 // Defualt is 20 (as a percentage)
+        //                }
+        //            }
+        //        }
+        //    };
+
+
+
+        //var ctx = document.getElementById("myChart").getContext("2d");
+        //var myChart = new Chart(ctx, config);
+
+
+
+
+        //var ctx = document.getElementById("myChart");
+        //var myChart = new Chart(ctx, {
+        //    type: 'bar',
+        //    data: {
+        //        labels: ["N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8", "N9", "N10"],
+        //        datasets: [{
+        //            label: '# of Tomatoes',
+        //            data: [12, 19, 23, 35, 42, 33, 20, 13, 25, 26, 12, 10],
+        //            backgroundColor: [
+        //              'rgba(255, 99, 132, 0.2)',
+        //              'rgba(54, 162, 235, 0.2)',
+        //              'rgba(255, 206, 86, 0.2)',
+        //              'rgba(75, 192, 192, 0.2)',
+        //              'rgba(153, 102, 255, 0.2)',
+        //              'rgba(255, 159, 64, 0.2)',
+        //              'rgba(255, 99, 132, 0.2)',
+        //              'rgba(54, 162, 235, 0.2)',
+        //              'rgba(255, 206, 86, 0.2)',
+        //              'rgba(75, 192, 192, 0.2)',
+        //              'rgba(153, 102, 255, 0.2)',
+        //              'rgba(255, 159, 64, 0.2)'
+        //            ],
+        //            borderColor: [
+        //              'rgba(255,99,132,1)',
+        //              'rgba(54, 162, 235, 1)',
+        //              'rgba(255, 206, 86, 1)',
+        //              'rgba(75, 192, 192, 1)',
+        //              'rgba(153, 102, 255, 1)',
+        //              'rgba(255, 159, 64, 1)',
+        //              'rgba(255,99,132,1)',
+        //              'rgba(54, 162, 235, 1)',
+        //              'rgba(255, 206, 86, 1)',
+        //              'rgba(75, 192, 192, 1)',
+        //              'rgba(153, 102, 255, 1)',
+        //              'rgba(255, 159, 64, 1)'
+        //            ],
+        //            borderWidth: 1
+        //        }]
+        //    },
+        //    options: {
+        //        responsive: false,
+        //        scales: {
+        //            xAxes: [{
+        //                ticks: {
+        //                    maxRotation: 90,
+        //                    minRotation: 80
+        //                }
+        //            }],
+        //            yAxes: [{
+        //                ticks: {
+        //                    beginAtZero: true
+        //                }
+        //            }]
+        //        }
+        //    }
+        //});
+
+        var densityCanvas = document.getElementById("myChart");
+
+        Chart.defaults.global.defaultFontFamily = "Arial";
+        Chart.defaults.global.defaultFontSize = 14;
+
+
+        var densityData = {
+            label: 'Claim Count (Total: 465)',
+            data: [8, 15, 35, 25, 21, 27, 30, 40],
+            backgroundColor: 'rgba(255, 99, 132, 0.2)',
+            borderColor: 'rgba(255,99,132,1)',
+            borderWidth: 1,
+            yAxisID: "y-axis-density"
+        };
+
+        var gravityData = {
+            label: 'Amount (Total: 17,44,365.00)',
+            data: [5427, 5243, 5514, 3933, 1326, 687, 1271, 1638],
+            backgroundColor: 'rgba(54, 162, 235, 0.2)',
+            borderColor: 'rgba(54, 162, 235, 1)',
+            borderWidth: 1,
+            yAxisID: "y-axis-gravity"
+        };
+
+        var planetData = {
+            labels: ["N1", "N2", "N3", "N4", "N5", "N6", "N7", "N8"],
+            datasets: [densityData, gravityData]
+        };
+
+        var chartOptions = {
+            scales: {
+                xAxes: [{
+                    barPercentage: 1,
+                    categoryPercentage: 0.6,
+                    fontColor: 'red',
+                    ticks: {
+                        fontFamily: "Arial",
+                        // fontColor: 'red'
+                    }
+                }],
+                yAxes: [{
+                    id: "y-axis-density",
+                    ticks: {
+                        //fontFamily: "Arial",
+                        fontColor: 'rgba(255, 99, 132, 1)'
+                    }
+                }, {
+                    id: "y-axis-gravity",
+                    ticks: {
+                        //fontFamily: "Arial",
+                        fontColor: 'rgba(54, 162, 235, 1)'
+                    }
+                }],
+            },
+            legend: {
+                labels: {
+                    //fontFamily: 'Arial',
+                    boxWidth: 10,
+                    boxHeight: 1
+                }
+            },
+
+        };
+
+        var barChart = new Chart(densityCanvas, {
+            type: 'bar',
+            data: planetData,
+            options: chartOptions
+        });
+    </script>
+</body>
+</html>
+
+
+
